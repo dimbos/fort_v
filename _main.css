@@ -34,3 +34,69 @@ body textarea:required:valid {
 	top: 10px;
 	text-align: center;
 }
+
+.s_main{
+	margin-top: 5%;
+}
+
+.main_side .box{
+	margin-bottom: 20px;
+}
+
+.box .form-group{
+	margin-bottom: 0;
+}
+
+.box_back .panel-heading{
+	padding: 5px;
+}
+
+.box_search .panel-default{
+	border: none;
+}
+
+.box .panel-default > .panel-heading{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+
+}
+
+.box_search .panel-default > .panel-heading{
+		border-radius: 6px;
+}
+
+.box_back h4{
+	display: inline;
+	font-size: 14px;
+	font-family: "OpenSansBold", sans-serif;
+	padding-left: 10px;
+}
+
+.box_back .btn{
+	font-size: 12px;
+	text-transform: none;
+	font-family: "OpenSansBold", sans-serif;
+	padding: 6px 4px;
+	float: right;
+}
+
+.box_back .input-group{
+	margin-bottom: 10px;
+}
+
+.box_back .input-group:last-child{
+	margin-bottom: 0px;
+}
+
+.panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a{
+	font-family: "OpenSansBold", sans-serif;
+}
+
+.panel-heading{
+	padding: 10px 12px;
+}
+
+.box_mnu .panel-title{
+	padding-right: 20px;
+}
+
