@@ -1,0 +1,36 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+.main_head .lead{
+	color: #fff;
+	font-family: "OpenSansBold", sans-serif;
+}
+
+.phone_top{
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
