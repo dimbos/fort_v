@@ -24,6 +24,16 @@
   	font-size: 0.85em;
   	padding: 13px;
   }
+
+  .wn_item .panel{
+  	max-width: initial;
+  }
+
+  .main_footer .col-sm-6{
+	margin-bottom: 20px;
+	min-height: 50px;
+	text-align: center;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -74,6 +84,14 @@
  	font-size: .7em;
  	margin-top: 5px;
  }
+ .main_footer{
+ 	padding-top: 60px;
+ }
+  .main_footer .col-sm-6{
+  	float: none;
+  	text-align: center;
+  	width: 100%;
+  }
 }
 
 /* Custom, iPhone Retina */

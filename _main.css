@@ -234,3 +234,151 @@ h1, .h1{
 	background-color: rgba(255, 194, 20, 0.55);
 
 }
+
+.bens{
+	margin-top: 20px;
+	position: relative;	
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.ben_item{
+	padding: 30px 0;
+	background-image: linear-gradient(#fff, #f6f6f6);
+	font-family: "OpenSansBold", sans-serif;
+}
+
+.ben_item h4{
+	font-size: 26px;
+	text-transform: none;
+	color: #787878;
+	margin-bottom: 0;
+	line-height: 18px;
+}
+
+.ben_item h4 span{
+	color: #242424;
+}
+
+.ben_item h4 sup{
+	font-size: 16px;
+}
+
+.ben_item small{
+	font-size: 13px;
+}
+
+.ben_item::before{
+	content: '';
+	width: 1px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background-image: linear-gradient(#F3F3F3, #DEDEDE);
+}
+
+.ben_item:last-child::before{
+	display: none;
+}
+
+article{
+	margin-bottom: 35px;
+}
+
+article a{
+	text-decoration: underline;
+}
+
+article a:hover{
+	text-decoration: none;
+}
+
+article ul{
+	list-style-type: circle;
+}
+
+article img{
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.widget_news ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.widget_news h4{
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+.wn_item .panel{
+	max-width: 240px;
+}
+
+.wn_item:nth-child(2) .panel{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wn_item:last-child .panel{
+	float: right;
+}
+
+.main_footer{
+	background-color: #242424;
+	padding: 30px 0 0;
+	color: #fff;
+	font-size: 16px;
+	font-family: "RobotoRegular", sans-serif;
+}
+
+.logo_wrap{
+	margin-top: -15px;
+	overflow: hidden;
+	height: 65px;
+}
+
+.main_footer strong{
+	display: block;
+	position: relative;
+}
+
+.main_footer strong::before{
+	content: '';
+	width: 2px;
+	position: absolute;
+	height: 80%;
+	top: 0;
+	left: -10px;
+	background-color: #fff;
+}
+
+.lead .footer_phone{
+	font-size: 24px;
+	font-family: "RobotoBold", sans-serif;
+	font-weight: bold;
+}
+
+.callback{
+	font-size: 12px;
+	font-weight: normal;
+	border-bottom: #fff 1px dotted;
+	color: #fff;
+}
+
+.callback:hover{
+	text-decoration: none;
+	border-bottom: #f27937 1px dotted;
+}
+
+.modal-dialog{
+	z-index: 1000000;
+	width: 450px;
+}
+
+.modal-body{
+	z-index: 10000000;
+}
